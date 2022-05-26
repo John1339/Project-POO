@@ -19,6 +19,11 @@ public class Dimension {
   /**
    * la medida en diagonal
    */
+  /**
+  *Rodriguez Garcia Juan Alonso
+  *Creacion de los atributos para las dimenciones
+  *Inicializan un objeto del tipo dimension
+  */
   private double diagonal;
   private double largo;
   private double ancho;
