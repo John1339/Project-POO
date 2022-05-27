@@ -24,6 +24,11 @@ import javax.swing.JPanel;
 /**
  * Class Tv
  */
+/**
+*Rodriguez Juan
+*Configuracion de la clase Main TV
+*Base para el frame que posteriormente mostrara la  interface de TV
+*/
 public class Tv extends JFrame{
 
   //
@@ -88,6 +93,12 @@ public class Tv extends JFrame{
   //
   // Methods
   //
+  /**
+  *Rodriguez Juan 
+  *Implementacion del metodo Init 
+  *Necesario para el Jframe principal
+  *Posibilita la visualizacion de contenido grafico 
+  */
   //Angel
   private void initTvJframe(){
       //
@@ -121,6 +132,13 @@ public class Tv extends JFrame{
       this.setVisible(true);
   }
 
+  /**
+  *Rodriguez Juan
+  *Implementacion de metodo init para las aplicaciones
+  *Inicializa las apps cargadas enla Tv
+  *Carga las apps
+  *Se muestran en la Tv al momento de que son solicitadas
+  */
   //Angel
   private void initAplicaciones(){
       //inicializamos el atributo de la clase
@@ -145,7 +163,12 @@ public class Tv extends JFrame{
         }
   }
 
-  
+  /**
+  *Rodriguez Juan
+  *Implementacion de metodo init para los botones
+  *Inicializa los botones con los que cuenta la Tv
+  *Da la posibilidad de ineractuar con las acciones disponibles de la Tv
+  */
   //codigo para inicializar los botones David
 private void initiBotones(){
         //inicializamos el atributo de la clase
@@ -171,7 +194,12 @@ private void initiBotones(){
         }
 
 
-
+/**
+*Rodriguez Juan 
+*Implementacion del metodo init para los altavoces
+*Inicializa los altavoces de la Tv
+*Mermite la reproduccion de audio para la Tv
+*/
   //Anotonio
   private void initAltavoces() {
       
@@ -197,7 +225,12 @@ private void initiBotones(){
     }
 
 
-
+/**
+*Rodriguez Juan
+*Implementacion de metodo init para las entradas 
+*Inicializa las entradas de la Tv
+*Permiten la carga del contenido 
+*/
   //Jaqueline
   private void initEntradas() {
 	  //inicializamos el atributo de la clase
